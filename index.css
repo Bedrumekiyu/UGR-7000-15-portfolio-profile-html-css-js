@@ -1,0 +1,222 @@
+body {
+    background-color: #e5d9f2;
+    font-family: serif, sans-serif;
+  }
+  .portfolio-container {
+    background-color: rgba(229, 217, 242, 1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    padding: 32px 40px;
+  }
+  .header-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1105px;
+    align-items: start;
+    gap: 20px;
+    color: rgba(0, 0, 0, 1);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  .nav-container {
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+  }
+  
+  .logo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    border-radius: 50%;
+  }
+  .nav-links {
+    background-color: rgba(245, 239, 255, 1);
+    display: flex;
+    align-items: start;
+    gap: 40px 59px;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+    padding: 16px 23px 6px;
+  }
+  .nav-links a {
+    text-decoration: none;
+  }
+  .profile-actions {
+    display: flex;
+    margin-top: 4px;
+    gap: 40px 73px;
+  }
+  
+  .profile-icon img {
+    width: 50px;
+    border-radius: 40%;
+    margin-top: 10px;
+  }
+  .chat-button {
+    background-color: rgba(245, 239, 255, 1);
+    align-self: start;
+    margin-top: 4px;
+    padding: 18px 20px 6px;
+    border-radius: 10px;
+    border: white;
+    font-size: 20px;
+  }
+  .hero-content {
+    background-color: rgba(245, 239, 255, 1);
+    display: flex;
+    margin-top: 3px;
+    margin-left: 70px;
+    width: 100%;
+    max-width: 950px;
+    flex-direction: column;
+  
+    color: rgba(76, 44, 230, 1);
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 15px 78px 0;
+  }
+  .profile-image {
+    aspect-ratio: 1.05;
+    object-fit: contain;
+    object-position: center;
+    width: 437px;
+    align-self: center;
+    max-width: 100%;
+    margin-top: 40px;
+  }
+  .hero-title {
+    font-size: 36px;
+    align-self: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .hero-subtitle {
+    font-size: 30px;
+    align-self: start;
+    margin: 0px 0px 0px 190px;
+  }
+  .hero-description {
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+  .action-buttons {
+    display: flex;
+    margin: 30px 0px 0px 250px;
+  
+    justify-content: space-evenly;
+    align-items: center;
+    width: 664px;
+    max-width: 100%;
+    gap: 90px;
+    color: rgba(55, 30, 181, 1);
+  }
+  .resume-button {
+    background-color: rgba(245, 239, 255, 1);
+    padding: 10px 14px 12px;
+    border: white;
+    border-radius: 10px;
+  
+    color: #4c2ce6;
+  }
+  .project-button {
+    background-color: rgba(245, 239, 255, 1);
+    padding: 10px 34px 12px;
+    color: #4c2ce6;
+    border: white;
+    border-radius: 10px;
+  }
+  .social-section {
+    background-color: rgba(205, 193, 255, 1);
+    display: flex;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-bottom: 45px;
+    width: 100%;
+    max-width: 950px;
+    flex-direction: column;
+    align-items: start;
+    padding: 8px 78px;
+  }
+  .social-title {
+    color: rgba(0, 0, 0, 1);
+    margin-left: 26px;
+    font-size: 25px;
+  }
+  .social-icons {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 35px;
+  
+    max-width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .social-icon {
+    width: 90px;
+    object-fit: contain;
+    object-position: center;
+  }
+  .social-icon img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  @media (max-width: 1200px) {
+    .hero-title {
+        font-size: 28px;
+    }
+    .hero-subtitle {
+        font-size: 20px;
+    }
+  }
+  @media (max-width: 991px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hero-content {
+        text-align: center;
+    }
+    .profile-image {
+        max-width: 200px;
+    }
+    .action-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+  }
+  @media (max-width: 768px) {
+    .hero-title {
+        font-size: 24px;
+    }
+    .hero-subtitle {
+        font-size: 18px;
+    }
+  }
+  @media (max-width: 576px) {
+    .profile-image {
+        max-width: 150px;
+    }
+    .chat-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    .resume-button, .project-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    .social-icon img {
+        width: 40px;
+        height: 40px;
+    }
+  }
+  

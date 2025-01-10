@@ -1,0 +1,363 @@
+
+body {
+  background-color: #e5d9f2;
+  font-family: serif, sans-serif;
+}
+
+.portfolio-container {
+  background-color: rgba(229, 217, 242, 1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  padding: 32px 40px;
+}
+
+.header-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1105px;
+  align-items: start;
+  gap: 20px;
+  color: rgba(0, 0, 0, 1);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-left: 70px;
+}
+
+.nav-container {
+  display: flex;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.nav-links {
+  background-color: rgba(245, 239, 255, 1);
+  display: flex;
+  align-items: start;
+  gap: 40px 59px;
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: auto 0;
+  padding: 16px 23px 6px;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+.profile-actions {
+  display: flex;
+  margin-top: 4px;
+  gap: 40px 73px;
+}
+
+.profile-icon img {
+  width: 50px;
+  border-radius: 40%;
+  margin-top: 10px;
+}
+
+.chat-button {
+  background-color: rgba(245, 239, 255, 1);
+  align-self: start;
+  margin-top: 4px;
+  padding: 18px 20px 6px;
+  border-radius: 10px;
+  border: white;
+  font-size: 20px;
+}
+
+.section-title {
+  color: rgba(76, 44, 230, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+
+.intro-text {
+  color: rgba(0, 0, 0, 1);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-left: 70px;
+  max-width: 1104px;
+
+}
+
+.background-section {
+  background: rgba(245, 239, 255, 1);
+  display: flex;
+  margin-top: 56px;
+  margin-left: 70px;
+  width: 100%;
+  max-width: 950px;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(76, 44, 230, 1);
+  padding: 18px 80px 31px;
+
+}
+
+.content-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1074px;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.content-wrapper ol {
+
+  color: rgba(0, 0, 0, 1);
+  font-size: 20px;
+
+  line-height: 30px;
+}
+
+.skills-list {
+  color: rgba(0, 0, 0, 1);
+  font-size: 20px;
+  margin-left: 90px;
+  line-height: 30px;
+
+}
+
+.contact-heading {
+  transform: rotate(0.005656625834438918rad);
+  margin-top: 76px;
+}
+
+.experience-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(76, 44, 230, 1);
+  margin-top: 45px;
+
+}
+
+.experience-text {
+  color: rgba(0, 0, 0, 1);
+  margin-top: 17px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-left: 70px;
+  max-width: 1104px;
+}
+
+.social-section {
+  background-color: rgba(205, 193, 255, 1);
+  display: flex;
+  margin-top: 40px;
+  margin-left: 70px;
+  margin-bottom: 45px;
+  width: 100%;
+  max-width: 950px;
+  flex-direction: column;
+  align-items: start;
+  padding: 8px 78px;
+}
+
+.social-title {
+  color: rgba(0, 0, 0, 1);
+  margin-left: 26px;
+  font-size: 25px;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 35px;
+
+  max-width: 100%;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.social-icon {
+  width: 90px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.social-icon img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+audio {
+
+  width: 300px;
+  height: 250px;
+  background-image: url('images/audio.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+
+}
+
+/* Tablet landscape (screen width between 768px and 1024px) */
+@media (max-width: 1024px) {
+.portfolio-container {
+  padding: 20px 30px;
+}
+
+.header-wrapper {
+  font-size: 18px;
+  margin-left: 30px;
+  gap: 10px;
+}
+
+.nav-links {
+  gap: 20px;
+  padding: 10px;
+}
+
+.profile-actions {
+  gap: 20px;
+}
+
+.experience-text,
+.intro-text {
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+.background-section {
+  margin-left: 30px;
+  padding: 15px 20px;
+}
+
+.social-section {
+  margin-left: 30px;
+  padding: 10px 20px;
+}
+}
+
+/* Tablet portrait (screen width between 600px and 768px) */
+@media (max-width: 768px) {
+.header-wrapper {
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0;
+  text-align: center;
+}
+
+.nav-links {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.profile-actions {
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.intro-text,
+.experience-text {
+  font-size: 16px;
+  margin: 0 10px;
+  text-align: justify;
+}
+
+.background-section,
+.social-section {
+  margin-left: 0;
+  padding: 10px;
+  width: 100%;
+}
+}
+
+/* Mobile landscape (screen width between 480px and 600px) */
+@media (max-width: 600px) {
+.header-wrapper {
+  font-size: 16px;
+}
+
+.logo img {
+  width: 60px;
+}
+
+.chat-button {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.intro-text,
+.experience-text {
+  font-size: 14px;
+}
+
+.background-section {
+  padding: 10px;
+}
+
+.social-icon img {
+  width: 50px;
+  height: 50px;
+}
+}
+
+/* Mobile portrait (screen width less than 480px) */
+@media (max-width: 480px) {
+.portfolio-container {
+  padding: 10px 15px;
+}
+
+.header-wrapper {
+  font-size: 14px;
+}
+
+.nav-links {
+  gap: 5px;
+}
+
+.chat-button {
+  font-size: 14px;
+  padding: 8px;
+}
+
+.intro-text,
+.experience-text {
+  font-size: 12px;
+}
+
+.background-section {
+  padding: 5px;
+}
+
+.social-icon img {
+  width: 40px;
+  height: 40px;
+}
+}
+
