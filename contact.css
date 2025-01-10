@@ -331,6 +331,8 @@ border: 0;
   padding: 0 20px;
 }
 }
+/* new resiposiveness */
+/* Mobile Portrait and Landscape */
 @media (max-width: 480px) {
 .header-wrapper {
 flex-direction: column;
@@ -380,7 +382,7 @@ gap: 10px;
 }
 }
 
-
+/* Tablet Portrait */
 @media (min-width: 481px) and (max-width: 768px) {
 .header-wrapper {
 flex-direction: column;
@@ -414,7 +416,7 @@ padding: 20px;
 }
 }
 
-
+/* Tablet Landscape */
 @media (min-width: 769px) and (max-width: 1024px) {
 .header-wrapper {
 gap: 20px;
