@@ -261,8 +261,6 @@ audio {
   padding: 10px 20px;
 }
 }
-
-/* Tablet portrait (screen width between 600px and 768px) */
 @media (max-width: 768px) {
 .header-wrapper {
   flex-direction: column;
@@ -297,7 +295,6 @@ audio {
 }
 }
 
-/* Mobile landscape (screen width between 480px and 600px) */
 @media (max-width: 600px) {
 .header-wrapper {
   font-size: 16px;
@@ -326,8 +323,6 @@ audio {
   height: 50px;
 }
 }
-
-/* Mobile portrait (screen width less than 480px) */
 @media (max-width: 480px) {
 .portfolio-container {
   padding: 10px 15px;
